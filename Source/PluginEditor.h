@@ -11,6 +11,8 @@
 #include <JuceHeader.h>
 #include "PluginProcessor.h"
 
+
+
 struct CustomRotatrySlider : juce::Slider {
 
     CustomRotatrySlider() : juce::Slider(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag,
